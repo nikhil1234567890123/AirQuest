@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirQuest</title>
+    <link rel="stylesheet" href="fqa.css">
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="shortcut icon" type="x-icon" href="https://cdn-icons-png.flaticon.com/512/31/31069.png">
+</head>
+<body>
+    <section>   <nav>
+        <div class="container main-nav flex">  
+            <a href="#" class="company-logo"> <i class="ri-plane-line"></i> <span>AirQuest</span></a>
+            <div class="nav-links">
+            <ul class="flex">
+                <li><a href="index.html"class="hover-link">HOME</a></li>
+                <li><a href="fqa.html"class="hover-link">FQA</a></li>
+                <li><a href="hotels.html"class="hover-link">HOTELS</a></li>
+                <li><a href="about.html"class="hover-link">ABOUT</a></li>
+                <li><a href="login.html"class="hover-link secondry-button">LOG IN </a></li>
+                <li><a href="signup.html"class="hover-link primary-button" target="_blank">SIGN UP</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav> 
+</section> 
+
+
+<br>
+<div class="wrapper">
+    <p>The Begninning of a New Asset class</p>
+    <h1>Frequently Asked Questions</h1>
+
+    <div class="faq">
+      <button class="accordion">
+        How can I book a flight?
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="pannel">
+        <p>
+            To book a flight, visit our website and enter your departure and arrival destinations, travel dates, and the number of passengers. Select your preferred flight options from the available choices, enter passenger details, and proceed to payment to confirm your booking.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="accordion">
+        What are the accepted payment methods?
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="pannel">
+        <p>
+            We accept various payment methods, including credit cards (Visa, MasterCard, American Express), debit cards, and online payment platforms such as PayPal. The available options will be displayed during the booking process.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="accordion">
+        Can I change or cancel my flight?
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="pannel">
+        <p>
+            Yes, depending on the fare conditions of your ticket, you may be able to make changes or cancel your flight. Visit the "Manage Booking" section on our website, enter your reservation details, and follow the instructions to make the desired changes. Please note that certain fares may have restrictions or fees for changes or cancellations.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="accordion">
+        How much baggage am I allowed to carry?
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="pannel">
+        <p>
+            The baggage allowance depends on your ticket type, destination, and the airline's policy. Generally, both checked baggage and carry-on baggage have specific weight and size restrictions. We recommend checking the baggage allowance section on our website or contacting our customer service for detailed information.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="accordion">
+        How can I check-in for my flight?
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="pannel">
+        <p>
+            You can check-in for your flight through our website or mobile app. Enter your reservation details, select the check-in option, and follow the prompts to complete the process. Alternatively, you can also check-in at the airport counters if you prefer.
+
+
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="accordion">
+        What documents do I need to travel?
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="pannel">
+        <p>
+            The required travel documents vary based on your destination and citizenship. Generally, you will need a valid passport for international travel. Some countries may require additional documents such as visas or proof of vaccinations. It is crucial to review the entry requirements for your destination country and ensure you have all the necessary documents before traveling.
+        </p>
+      </div>
+    </div>
+    <div class="faq">
+        <button class="accordion">
+            Can I request special assistance or services?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Yes, we provide special assistance for passengers with disabilities, medical conditions, or specific needs. During the booking process or before your flight, you can inform us about any special requirements you have, such as wheelchair assistance, dietary restrictions, or medical equipment. Our customer service team will assist you accordingly.
+  
+  
+          </p>
+        </div>
+      </div>
+      <div class="faq">
+        <button class="accordion">
+            What happens if my flight is delayed or canceled?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            In the event of a flight delay or cancellation, we will make every effort to notify you in advance through the contact information provided during booking. We will assist you with rebooking on the next available flight or provide alternate options as per our policy. It's recommended to regularly check your flight status on our website or contact our customer service for the latest updates.
+  
+  
+          </p>
+        </div>
+      </div>
+
+  </div>
+  <section></section>
+
+ <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        this.parentElement.classList.toggle("active");
+
+        var pannel = this.nextElementSibling;
+
+        if (pannel.style.display === "block") {
+          pannel.style.display = "none";
+        } else {
+          pannel.style.display = "block";
+        }
+      });
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+</body>
+</html>
